@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>payment</title>
+    
+</head>
+<body>
+    <style>
+        body{
+           font-family: Arial, Helvetica, sans-serif;
+           position: relative;
+           left: 40px;
+           top: 20px;
+        }
+        .head{
+   display: flex;
+   flex-direction: row;
+   margin: 30px;
+border-bottom:1px solid rgba(0, 34, 255, 0.792) ;
+width:00px;
+
+
+
+}
+.one{
+   
+    border-radius: 50%;
+    margin-right: 90px;
+    background-color: crimson;
+    color: white;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border: none;
+
+}
+.two{
+    border-radius: 50%;
+    margin-right: 90px;
+    background-color: crimson;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border: none;
+    
+
+}
+.three{
+    border-radius: 50%;
+    
+    background-color: crimson;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border: none;
+
+}
+.add{
+    position: relative;
+    bottom: 29px;
+    left: 10px;
+   
+}
+.os{
+    position: relative;
+    bottom: 63px;
+    left: 130px;
+}
+.pay{
+    position: relative;
+    bottom: 99px;
+    left: 245px;
+}
+#form{
+    position: relative;
+    bottom: 20px;
+    border: 1px solid ;
+    box-shadow: 3px 3px 3px 3px rgba(128, 128, 128, 0.251);
+    border: none;
+    border-radius: 5px;
+    width: 400px;
+    padding: 20px;
+}
+.full{
+    z-index: 100;
+    
+}
+#fn{
+    position: relative;
+    top: 4px;
+    
+}
+#pn{
+    position: relative;
+    top: 4px;
+}
+#ad{
+    position: relative;
+    bottom: 7px;
+}
+
+#add{
+    color: blueviolet;
+    cursor: pointer;
+}
+#hn{
+    width: 230px;
+}
+#rn{
+    width: 230px;
+}
+#nf{
+    color: blueviolet;
+}
+#toa{
+    color: cadetblue;
+}
+.home{
+    background-color: transparent;
+    margin-right: 50px;
+    width: 100px;
+    height: 30px;
+    border-radius: 30px;
+    cursor: pointer;;
+}
+.work{
+    background-color: transparent;
+    margin-right: 80px;
+    width: 100px;
+    height: 30px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.save{
+    width:399px;
+    height: 45px;
+    position: relative;
+    bottom: 16px;
+    background-color: crimson;
+    border: none;
+    color: white;
+    font-size: 20px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.save:hover{
+    scale: .9;
+    transition: all ease .5s;
+    color: crimson;
+    background-color: aquamarine;
+}
+.div{
+    border: 1px solid ;
+    box-shadow: 3px 3px 3px 3px rgba(128, 128, 128, 0.251);
+    border: none;
+    border-radius: 5px;
+    width: 400px;
+    padding: 20px;
+    position: relative;
+    
+}
+.pd{
+    border: 1px solid ;
+    box-shadow: 3px 3px 3px 3px rgba(128, 128, 128, 0.251);
+    border: none;
+    border-radius: 5px;
+    width: 400px;
+    padding: 20px;
+    position: relative;
+    height: 240px;
+   
+}
+#mon{
+     position: relative;
+     left: 220px;
+     bottom: 35px;
+     font-size: 14px;
+}
+#frees{
+    position: relative;
+     left: 220px;
+     bottom: 65px;
+     font-size: 14px;
+}
+#mone{
+    position: relative;
+     left: 220px;
+     bottom: 95px;
+     font-size: 14px;
+}
+#pr{
+ position: relative;
+ left: 30px;
+}
+#dc{
+    position: relative;
+ left: 30px;
+ bottom: 30px;
+
+
+
+}
+#ap{ 
+    position: relative;
+ left: 30px;
+ bottom: 60px;
+}
+.footer{
+    border: 1px solid ;
+    box-shadow: 3px 3px 3px 3px rgba(128, 128, 128, 0.251);
+    border: none;
+    border-radius: 5px;
+    width: 400px;
+    padding: 20px;
+    position: relative;
+    height: 60px;
+}
+.continue {
+    position: relative;
+   
+    width: 360px;
+    bottom: 75px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(210, 0, 42);
+    border-radius: 15px;
+    border: none;
+    left: 15px;
+    height: 45px;
+    cursor: pointer;
+}
+.continue:hover{
+    scale: 1.1;
+     transition: all ease .5s;
+     background-color: rgb(219, 33, 33);
+    
+}
+#fn{
+    border-radius: 25px;
+   font-size: 13px;
+   padding-left: 5px;
+   width: 200px;
+   height: 17px;
+    
+}
+#i{
+    cursor: pointer;
+}
+.border{
+    border: 1px solid crimson;
+    width: 100px;
+    position: relative;
+    bottom: 1482px;
+    left: 48px;
+}
+.corder{
+    border: 1px solid crimson;
+    width: 100px;
+    position: relative;
+    bottom: 1483px;
+    left: 168px;
+    
+}
+
+
+    </style>
+    <h2 id="h2">Add delivery address</h2>
+    <header class="head">
+        <p class="one">1</p>
+        <p class="two">2</p>
+        <p class="three">3</p>
+        
+    </header>
+    <header class="fed">
+<p class="add">Address</p>
+<p class="os">Payment</p>
+<p class="pay"> Confirmation</p>
+    </header>
+    <form action="" id="form">
+    <label for="FN" class="full">Full Name*</label>
+    <br>
+    <input type="text" required id="fn" > 
+    <br>
+    <br>
+    <label for="FN" class="full">Email id*</label>
+    <br>
+    <input type="email" required id="fn" >
+    <br>
+    <br>
+    <label for="PN" class="phone">Phone number*</label>
+    <br>
+    <input type="text" required id="fn" >
+    <br>
+    <br>
+    <p id="add">+Add Alternate Phone Number</p>
+    <input type="text" required id="fn" >
+    <br>
+    <br>
+    <input type="text" id="fn" placeholder="Pincode (Required)*">
+    <br>
+    <br>
+    <input type="text" id="fn" placeholder="State (Required)*">
+    <br>
+    <br>
+    <input type="text" id="fn" placeholder="House No., Building Name (Required)*">
+    <br>
+    <br>
+    <input type="text" id="fn" placeholder="Road Name, Area, Colony (Required)*">
+    <br>
+    <br>
+    <p id="nf">+Add Nearby Famous Shop/Mall//Landmark</p>
+    <input type="text" id="fn">
+    <br>
+    <br>
+    <p id="toa">Type of address</p>
+    
+    <button class="home">Home</button>
+    <button class="work">Work</button>
+    <br>
+    <br>
+    <br>
+    <br>
+    <button class="save">Save Address</button>
+    </form>
+    <br>
+    <br>
+    <br>
+
+    <h2 id="pay">Payments</h2>
+
+    
+    <div class="div">
+        <h3 id="ao">All options</h3>
+        
+    
+   <input type="radio" name="abc" id="i">
+   <label for="pp" id> Paytm</label>
+   <br>
+   <br>
+   <input type="radio" name="abc" id="i">
+   <label for="pp" id>Cash on Delivery</label>
+   
+</div>
+<br>
+
+
+<div class="pd">
+    <h3>Price Details</h3>
+    <p id="pr">Price</p><P id="mon">  349</p>
+        <p id="dc">Delivery Charges</p>
+        <p id="frees">FREE</p>
+        <P id="ap">Amount Payable</P>
+        <p id="mone">349</p>
+    
+
+
+
+    <a href="qr.html"><button class="continue">Pay Now</button></a>
+
+</div>
+   <div class="border">
+    
+   </div>
+   <div class="corder">
+    
+   </div>
+</form>
+</body>
+</html>
